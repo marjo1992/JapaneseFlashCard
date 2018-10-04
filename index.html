@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue app</title>
+  <link href="./vocabulaire.css" rel="stylesheet">
+  <script src="https://unpkg.com/vue"></script>
+  <script src="./vocabulaire.js" charset="UTF-8"></script>
+</head>
+<body>
+  <div id="app">
+    <recto :info='carteParcouru.info' v-for='carteParcouru in cartes'></recto>
+    <verso :info='carteParcouru.info' v-for='carteParcouru in cartes'></verso>
+  </div>
+  <script>
+    Vue.component('recto', {
+        template: `
+          <div class="recto">
+            <div>
+              <span v-for='x in info.mot'>{{x.kanji}}</span>
+            </div>
+          </div>
+        `,
+        props: ['info']
+    });
+    Vue.component('verso', {
+        template: `
+          <div class="verso">
+            <div class="traduction">
+              <div>{{info.traduction}}</div>
+            </div>
+            <div class="kanjisEtFuriganas">
+              <kanjiEtFurigana :furigana='x.furigana' :kanji='x.kanji' v-for='x in info.mot'></kanjiEtFurigana>
+            </div>
+          </div>
+        `,
+        props: ['info']
+    });
+    Vue.component('kanjiEtFurigana', {
+        template: `
+          <div class="kanjiEtFurigana">
+            <div class="furigana">{{furigana}}</div>
+            <div class="kanji">{{kanji}}</div>
+          </div>
+        `,
+        props: ['furigana', 'kanji']
+    });
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+          cartes: vocabulaire
+      }
+    })
+  </script>
+</body>
+</html>

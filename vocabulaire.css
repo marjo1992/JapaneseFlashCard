@@ -1,0 +1,67 @@
+:root{
+    --couleur-principale:#FF5050;
+    --hauteur-carte:30vw;
+}
+
+@font-face {
+    font-family: japaneseNormal;
+    src: url('Appli mincho.otf');
+}
+
+@font-face {
+    font-family: japaneseKanjiOrder;
+    src: url(KanjiStrokeOrders_v4.001.ttf);
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.recto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed grey;
+    width: 49%;
+    height: var(--hauteur-carte);
+    font-family: japaneseNormal;
+    text-align: center;
+    color: var(--couleur-principale);
+    font-size: 36px;
+}
+.verso {
+    border: 1px dashed grey;
+    width: 49%;
+    height: var(--hauteur-carte);
+}
+.traduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    border-bottom: 1px dotted var(--couleur-principale);
+    color: var(--couleur-principale);
+    height: calc(var(--hauteur-carte)/2);
+    text-align: center;
+}
+.kanjisEtFuriganas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: japaneseNormal;
+    color: black;
+    height: calc(var(--hauteur-carte)/2);
+}
+.kanjiEtFurigana {
+
+}
+.furigana {
+    font-size: 12px;
+    text-align: center;
+    white-space: pre;
+}
+.kanji {
+    font-size: 36px;
+    text-align: center;
+}
