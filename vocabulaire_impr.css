@@ -14,10 +14,13 @@
 }
 
 #app {
+    -webkit-print-color-adjust: exact; /* force le navigateur à imprimer les couleurs justes, valable unqiuement sur chrome*/
+}
+.rectos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    -webkit-print-color-adjust: exact; /* force le navigateur à imprimer les couleurs justes, valable unqiuement sur chrome*/
+    page-break-inside: avoid; /* MARCHE PAS*/
 }
 .recto {
     display: flex;
@@ -25,16 +28,29 @@
     align-items: center;
     border: 1px dashed grey;
     width: 49%;
+    flex:auto;
     height: var(--hauteur-carte);
     font-family: japaneseNormal;
     text-align: center;
     color: var(--couleur-principale);
     font-size: 36px;
+    page-break-inside: avoid; /* MARCHE PAS*/
+}
+.recto:nth-child(3n) {
+    page-break-after:always; /* MARCHE PAS*/
+    background: silver;
+}
+.versos {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    page-break-before:always; /* Nouvelle page */
 }
 .verso {
     border: 1px dashed grey;
     width: 49%;
     height: var(--hauteur-carte);
+    flex:auto; /* Permet de faire que les cartes prennes toutes la largeur*/
 }
 .traduction {
     display: flex;

@@ -9,8 +9,12 @@
 </head>
 <body>
   <div id="app">
-    <recto :info='carteParcouru.info' v-for='carteParcouru in cartes'></recto>
-    <verso :info='carteParcouru.info' v-for='carteParcouru in cartes'></verso>
+    <div class="rectos">
+      <recto :info='carteParcouru.info' v-for='carteParcouru in cartes'></recto>
+    </div>
+    <div class="versos">
+      <verso :info='carteParcouru.info' v-for='carteParcouru in cartes'></verso>
+    </div>
   </div>
   <script>
     Vue.component('recto', {
