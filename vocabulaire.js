@@ -297,6 +297,202 @@ var vocabulaire =
     },
     {
       "info": {
+        "id": 29,
+        "mot": [
+          { "kanji": "学", "furigana": "がっ"},
+          { "kanji": "校", "furigana": "こう"}
+        ],
+        "traduction": "Ecole"
+      }
+    },
+    {
+      "info": {
+        "id": 30,
+        "mot": [
+          { "kanji": "図", "furigana": "と"},
+          { "kanji": "書", "furigana": "しょ"},
+          { "kanji": "館", "furigana": "かん"}
+        ],
+        "traduction": "Bibliothèque"
+      }
+    },
+    {
+      "info": {
+        "id": 31,
+        "mot": [
+          { "kanji": "事", "furigana": "じ"},
+          { "kanji": "務", "furigana": "む"},
+          { "kanji": "室", "furigana": "しつ"}
+        ],
+        "traduction": "Bureau"
+      }
+    },
+    {
+      "info": {
+        "id": 32,
+        "mot": [
+          { "kanji": "ト", "furigana": "と"},
+          { "kanji": "イ", "furigana": "い"},
+          { "kanji": "レ", "furigana": "れ"}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
+        "id": 33,
+        "mot": [
+          { "kanji": "会", "furigana": "かい"},
+          { "kanji": "議", "furigana": "ぎ"},
+          { "kanji": "室", "furigana": "しつ"}
+        ],
+        "traduction": "Salle de réunion"
+      }
+    },
+    {
+      "info": {
+        "id": 34,
+        "mot": [
+          { "kanji": "教", "furigana": "きょう"},
+          { "kanji": "室", "furigana": "しつ"}
+        ],
+        "traduction": "Salle de classe"
+      }
+    },
+    {
+      "info": {
+        "id":35,
+        "mot": [
+          { "kanji": "レ", "furigana": "れ"},
+          { "kanji": "ス", "furigana": "す"},
+          { "kanji": "ト", "furigana": "と"},
+          { "kanji": "ラ", "furigana": "ら"},
+          { "kanji": "ン", "furigana": "ん"}
+        ],
+        "traduction": "Restaurant"
+      }
+    },
+    {
+      "info": {
+        "id": 36,
+        "mot": [
+          { "kanji": "銀​", "furigana": "ぎん"},
+          { "kanji": "行", "furigana": "こう"}
+        ],
+        "traduction": "Banque"
+      }
+    },
+    {
+      "info": {
+        "id": 37,
+        "mot": [
+          { "kanji": "病​", "furigana": "びょう"},
+          { "kanji": "院", "furigana": "いん"}
+        ],
+        "traduction": "Hôpital"
+      }
+    },
+    {
+      "info": {
+        "id": 38,
+        "mot": [
+          { "kanji": "郵​", "furigana": "ゆう"},
+          { "kanji": "便"​, "furigana": "びん"},
+          { "kanji": "局", "furigana": "きょく"}
+        ],
+        "traduction": "Poste (lieu)"
+      }
+    },
+    {
+      "info": {
+        "id": 39,
+        "mot": [
+          { "kanji": "デ", "furigana": "で"},
+          { "kanji": "パ", "furigana": "ぱ"},
+          { "kanji": "ー", "furigana": ""},
+          { "kanji": "ト", "furigana": "と"}
+        ],
+        "traduction": "Grand magasin"
+      }
+    },
+    {
+      "info": {
+        "id": 40,
+        "mot": [
+          { "kanji": "映", "furigana": "えい"},
+          { "kanji": "画", "furigana": "が"},
+          { "kanji": "館", "furigana": "かん"}
+        ],
+        "traduction": "Cinéma"
+      }
+    },
+    {
+      "info": {
+        "id": 41,
+        "mot": [
+          { "kanji": "喫​", "furigana": "きっ"},
+          { "kanji": "茶​", "furigana": "さ"},
+          { "kanji": "店", "furigana": "てん"}
+        ],
+        "traduction": "Café (lieu)"
+      }
+    },
+    {
+      "info": {
+        "id": 42,
+        "mot": [
+          { "kanji": "本", "furigana": "ほん"},
+          { "kanji": "屋", "furigana": "や"}
+        ],
+        "traduction": "Librairie"
+      }
+    },
+    {
+      "info": {
+        "id": 0,
+        "mot": [
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
+        "id": 0,
+        "mot": [
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
+        "id": 0,
+        "mot": [
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
+        "id": 0,
+        "mot": [
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
         "id": 0,
         "mot": [
           { "kanji": "", "furigana": ""},
