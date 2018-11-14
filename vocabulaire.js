@@ -1322,6 +1322,525 @@ var vocabulaire =
     },
     {
       "info": {
+        "id": 131,
+        "mot": [
+          { "kanji": "今", "furigana": "きょ"},
+          { "kanji": "日", "furigana": "う"}
+        ],
+        "traduction": "Aujourd'hui"
+      }
+    },
+    {
+      "info": {
+        "id": 132,
+        "mot": [
+          { "kanji": "明​", "furigana": "あ"},
+          { "kanji": "日", "furigana": "した"}
+        ],
+        "traduction": "Demain"
+      }
+    },
+    {
+      "info": {
+        "id": 133,
+        "mot": [
+          { "kanji": "あ", "furigana": ""},
+          { "kanji": "さっ", "furigana": ""},
+          { "kanji": "て", "furigana": ""}
+        ],
+        "traduction": "Après-demain"
+      }
+    },
+    {
+      "info": {
+        "id": 134,
+        "mot": [
+          { "kanji": "月", "furigana": "げつ"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Lundi"
+      }
+    },
+    {
+      "info": {
+        "id": 135,
+        "mot": [
+          { "kanji": "火", "furigana": "か"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Mardi"
+      }
+    },
+    {
+      "info": {
+        "id": 136,
+        "mot": [
+          { "kanji": "水", "furigana": "すい"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Mercredi"
+      }
+    },
+    {
+      "info": {
+        "id": 137,
+        "mot": [
+          { "kanji": "木", "furigana": "もく"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Jeudi"
+      }
+    },
+    {
+      "info": {
+        "id": 138,
+        "mot": [
+          { "kanji": "金", "furigana": "きん"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Vendredi"
+      }
+    },
+    {
+      "info": {
+        "id": 139,
+        "mot": [
+          { "kanji": "doyoubi", "furigana": "ど"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Samedi"
+      }
+    },
+    {
+      "info": {
+        "id": 140,
+        "mot": [
+          { "kanji": "日​", "furigana": "にち"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Dimanche"
+      }
+    },
+    {
+      "info": {
+        "id": 141,
+        "mot": [
+          { "kanji": "何​", "furigana": "なん"},
+          { "kanji": "曜​", "furigana": "よう"},
+          { "kanji": "日", "furigana": "び"}
+        ],
+        "traduction": "Quel jour ?"
+      }
+    },
+    {
+      "info": {
+        "id": 142,
+        "mot": [
+          { "kanji": "1", "furigana": "いっ", "attention" : true},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "1 an"
+      }
+    },
+    {
+      "info": {
+        "id": 143,
+        "mot": [
+          { "kanji": "2", "furigana": "に"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "2 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 144,
+        "mot": [
+          { "kanji": "3", "furigana": "さん"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "3 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 145,
+        "mot": [
+          { "kanji": "4", "furigana": "よん"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "4 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 146,
+        "mot": [
+          { "kanji": "5", "furigana": "ご"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "5 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 147,
+        "mot": [
+          { "kanji": "6", "furigana": "ろく"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "6 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 148,
+        "mot": [
+          { "kanji": "7", "furigana": "なな"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "7 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 149,
+        "mot": [
+          { "kanji": "8", "furigana": "はっ", "attention" : true},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "8 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 150,
+        "mot": [
+          { "kanji": "9", "furigana": "きゅう"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "9 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 151,
+        "mot": [
+          { "kanji": "10", "furigana": "じゅっ", "attention" : true},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "10 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 152,
+        "mot": [
+          { "kanji": "20", "furigana": "はた", "attention" : true},
+          { "kanji": "歳", "furigana": "ち", "attention" : true}
+        ],
+        "traduction": "20 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 153,
+        "mot": [
+          { "kanji": "31", "furigana": "さんじゅういっ", "attention" : true},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "31 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 154,
+        "mot": [
+          { "kanji": "48", "furigana": "よんじゅうはっ", "attention" : true},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "48 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 155,
+        "mot": [
+          { "kanji": "50", "furigana": "ごじゅっ", "attention" : true},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "50 ans"
+      }
+    },
+    {
+      "info": {
+        "id": 156,
+        "mot": [
+          { "kanji": "何​", "furigana": "なん"},
+          { "kanji": "歳", "furigana": "さい"}
+        ],
+        "traduction": "Quel âge ?"
+      }
+    },
+    {
+      "info": {
+        "id": 157,
+        "mot": [
+          { "kanji": "男​", "furigana": "おとこ"},
+          { "kanji": "の​", "furigana": ""},
+          { "kanji": "子", "furigana": "こ"}
+        ],
+        "traduction": "Garçon (enfant)"
+      }
+    },
+    {
+      "info": {
+        "id": 158,
+        "mot": [
+          { "kanji": "女​", "furigana": "おんな"},
+          { "kanji": "の​", "furigana": ""},
+          { "kanji": "子", "furigana": "こ"}
+        ],
+        "traduction": "Fille (enfant)"
+      }
+    },
+    {
+      "info": {
+        "id": 159,
+        "mot": [
+          { "kanji": "百", "furigana": "ひゃく"}
+        ],
+        "traduction": "100"
+      }
+    },
+    {
+      "info": {
+        "id": 160,
+        "mot": [
+          { "kanji": "二​", "furigana": "に"},
+          { "kanji": "百", "furigana": "ひゃく"}
+        ],
+        "traduction": "200"
+      }
+    },
+    {
+      "info": {
+        "id": 161,
+        "mot": [
+          { "kanji": "三", "furigana": "さん"},
+          { "kanji": "百", "furigana": "びゃく", "attention" : true}
+        ],
+        "traduction": "300"
+      }
+    },
+    {
+      "info": {
+        "id": 162,
+        "mot": [
+          { "kanji": "四", "furigana": "よん"},
+          { "kanji": "百", "furigana": "ひゃく"}
+        ],
+        "traduction": "400"
+      }
+    },
+    {
+      "info": {
+        "id": 163,
+        "mot": [
+          { "kanji": "五", "furigana": "go"},
+          { "kanji": "百", "furigana": "ひゃく"}
+        ],
+        "traduction": "500"
+      }
+    },
+    {
+      "info": {
+        "id": 164,
+        "mot": [
+          { "kanji": "六", "furigana": "ろっ"},
+          { "kanji": "百", "furigana": "ぴゃく", "attention" : true}
+        ],
+        "traduction": "600"
+      }
+    },
+    {
+      "info": {
+        "id": 165,
+        "mot": [
+          { "kanji": "七", "furigana": "なな"},
+          { "kanji": "百", "furigana": "ひゃく"}
+        ],
+        "traduction": "700"
+      }
+    },
+    {
+      "info": {
+        "id": 166,
+        "mot": [
+          { "kanji": "八", "furigana": "はっ"},
+          { "kanji": "百", "furigana": "ぴゃく", "attention" : true}
+        ],
+        "traduction": "800"
+      }
+    },
+    {
+      "info": {
+        "id": 167,
+        "mot": [
+          { "kanji": "九", "furigana": "きゅう"},
+          { "kanji": "百", "furigana": "ひゃく"}
+        ],
+        "traduction": "900"
+      }
+    },
+    {
+      "info": {
+        "id": 168,
+        "mot": [
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "1 000"
+      }
+    },
+    {
+      "info": {
+        "id": 169,
+        "mot": [
+          { "kanji": "二​", "furigana": "に"},
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "2 000"
+      }
+    },
+    {
+      "info": {
+        "id": 170,
+        "mot": [
+          { "kanji": "三", "furigana": "さん"},
+          { "kanji": "千", "furigana": "ぜん", "attention" : true}
+        ],
+        "traduction": "3 000"
+      }
+    },
+    {
+      "info": {
+        "id": 171,
+        "mot": [
+          { "kanji": "四", "furigana": "よん"},
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "4 000"
+      }
+    },
+    {
+      "info": {
+        "id": 172,
+        "mot": [
+          { "kanji": "五", "furigana": "go"},
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "5 000"
+      }
+    },
+    {
+      "info": {
+        "id": 173,
+        "mot": [
+          { "kanji": "六", "furigana": "ろく"},
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "6 000"
+      }
+    },
+    {
+      "info": {
+        "id": 174,
+        "mot": [
+          { "kanji": "七", "furigana": "なな"},
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "7 000"
+      }
+    },
+    {
+      "info": {
+        "id": 175,
+        "mot": [
+          { "kanji": "八", "furigana": "はっ"},
+          { "kanji": "千", "furigana": "せん", "attention" : true}
+        ],
+        "traduction": "8 000"
+      }
+    },
+    {
+      "info": {
+        "id": 176,
+        "mot": [
+          { "kanji": "九", "furigana": "きゅう"},
+          { "kanji": "千", "furigana": "せん"}
+        ],
+        "traduction": "9 000"
+      }
+    },
+    {
+      "info": {
+        "id": 177,
+        "mot": [
+          { "kanji": "万", "furigana": "まん"}
+        ],
+        "traduction": "10 000"
+      }
+    },
+    {
+      "info": {
+        "id": 178,
+        "mot": [
+          { "kanji": "円", "furigana": "えん"}
+        ],
+        "traduction": "Yen"
+      }
+    },
+    {
+      "info": {
+        "id": 179,
+        "mot": [
+          { "kanji": "幾​", "furigana": "いく"},
+          { "kanji": "ら", "furigana": ""}
+        ],
+        "traduction": "Combien ?"
+      }
+    },
+    {
+      "info": {
+        "id": 0,
+        "mot": [
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
+        "id": 0,
+        "mot": [
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""},
+          { "kanji": "", "furigana": ""}
+        ],
+        "traduction": ""
+      }
+    },
+    {
+      "info": {
         "id": 0,
         "mot": [
           { "kanji": "", "furigana": ""},
