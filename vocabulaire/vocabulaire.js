@@ -397,7 +397,7 @@ var vocabulaire =
         "id": 38,
         "mot": [
           { "kanji": "郵​", "furigana": "ゆう"},
-          { "kanji": "便"​, "furigana": "びん"},
+          { "kanji": "便", "furigana": "びん"},
           { "kanji": "局", "furigana": "きょく"}
         ],
         "traduction": "Poste (lieu)"
@@ -1851,3 +1851,21 @@ var vocabulaire =
       }
     }
   ]
+/*
+Voca a ajouter
+//http://www.sakura-house.com/blog/fr/2014/04/01/le-jeu-des-je-en-japonais/
+Je (pronom) façon polie = 私 わたし
+Je (pronom) entre amis pour les garçons = 僕 ぼく
+Je (pronom) entre amis pour les garçons = 俺 おれ
+Je (pronom) entre amis pour les filles = あたし
+Nous (pronom) = 私たち わたしたち
+Tu / Vous (pronom) = あなた
+Tu (pronom) entre amis = きみ
+Vous (pronom) = あなたたち
+Cette personne = あの人 あのひと façon polie de la 3e personne du singulier
+Ces gens = あの人なた あのひとなた
+Il / lui = 彼 かれ (plutot pour parler de son petit ami)
+Ils = 彼ら かれら
+Elle = 彼女 かのじょ (plutot pour parler de sa petite ami)
+Elles = 彼女たち かのじょたち
+*/

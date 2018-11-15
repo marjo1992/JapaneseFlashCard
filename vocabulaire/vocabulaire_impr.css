@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: japaneseNormal;
-    src: url('Appli mincho.otf');
+    src: url('../ressources/Appli mincho.otf');
 }
 
 @font-face {
     font-family: japaneseKanjiOrder;
-    src: url(KanjiStrokeOrders_v4.001.ttf);
+    src: url('../ressources/KanjiStrokeOrders_v4.001.ttf');
 }
 
 #app {
