@@ -1,6 +1,16 @@
 :root{
     --couleur-principale:#FF5050;
-    --hauteur-carte:30vw;
+    --couleur-bordure-coupe:#F2F2F2;
+    --hauteur-carte:34vw;
+}
+
+@page {
+
+    margin-top: 0.5cm;
+    margin-right: 1cm;
+    margin-bottom: 0.5cm;
+    margin-left: 1cm;
+
 }
 
 @font-face {
@@ -20,13 +30,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    page-break-inside: avoid; /* MARCHE PAS*/
 }
 .recto {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dashed grey;
+    /*border: 1px dashed grey;*/
     width: 49%;
     flex:auto;
     height: var(--hauteur-carte);
@@ -34,20 +43,18 @@
     text-align: center;
     color: var(--couleur-principale);
     font-size: 36px;
-    page-break-inside: avoid; /* MARCHE PAS*/
-}
-.recto:nth-child(3n) {
-    page-break-after:always; /* MARCHE PAS*/
-    background: silver;
 }
 .versos {
+    border-left: 1px dashed var(--couleur-bordure-coupe);
+    border-top: 1px dashed var(--couleur-bordure-coupe);
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     page-break-before:always; /* Nouvelle page */
 }
 .verso {
-    border: 1px dashed grey;
+    border-right: 1px dashed var(--couleur-bordure-coupe);
+    border-bottom: 1px dashed var(--couleur-bordure-coupe);
     width: 49%;
     height: var(--hauteur-carte);
     flex:auto; /* Permet de faire que les cartes prennes toutes la largeur*/
@@ -56,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     border-bottom: 1px dotted var(--couleur-principale);
     color: var(--couleur-principale);
     height: calc(var(--hauteur-carte)/2);
@@ -70,9 +77,6 @@
     color: black;
     height: calc(var(--hauteur-carte)/2);
 }
-.kanjiEtFurigana {
-
-}
 .furigana {
     font-size: 12px;
     text-align: center;
@@ -81,4 +85,7 @@
 .kanji {
     font-size: 36px;
     text-align: center;
+}
+.page {
+    page-break-after: always;
 }

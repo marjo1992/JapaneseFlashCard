@@ -335,7 +335,7 @@ var vocabulaire =
           { "kanji": "イ", "furigana": "い"},
           { "kanji": "レ", "furigana": "れ"}
         ],
-        "traduction": ""
+        "traduction": "Toilettes"
       }
     },
     {

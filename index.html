@@ -9,23 +9,58 @@
 </head>
 <body>
   <div id="app">
-    <div class="rectos">
-      <recto :info='carteParcouru.info' v-for='carteParcouru in cartes'></recto>
-    </div>
-    <div class="versos">
-      <verso :info='carteParcouru.info' v-for='carteParcouru in cartes'></verso>
-    </div>
+    <pages :cartes="cartes"></pages>
   </div>
   <script>
+    Vue.component('pages', {
+      template: `
+        <div>
+          <pageRecto :page="page" v-for="page in pages"></pageRecto>
+          <pageVerso :page="page" v-for="page in pages"></pageVerso>
+        </di>
+      `,
+      props: ['cartes'],
+      data: function() {
+        return {
+          pages: []
+        }
+      },
+      created: function() {
+        while(this.cartes.length) {
+          this.pages.push(this.cartes.splice(0, 8));
+        }
+      }
+    });
+    Vue.component('pageRecto', {
+      template: `
+        <div class="page">
+          <div class="rectos">
+            <recto :info='carteParcouru.info' v-for='carteParcouru in page'></recto>
+          </div>
+        </div>
+      `,
+      props: ['page']
+    });
+    Vue.component('pageVerso', {
+      template: `
+        <div class="page">
+          <div class="versos">
+            <verso :info='carteParcouru.info' v-for='carteParcouru in page'></verso>
+          </div>
+        </div>
+      `,
+      props: ['page']
+    });
     Vue.component('recto', {
         template: `
           <div class="recto">
             <div>
               <span v-for='x in info.mot'>{{x.kanji}}</span>
             </div>
+            <div class="page-breaker" v-if="!((this.index+1)%8)"><div class="page-breaker-child"></div></div>
           </div>
         `,
-        props: ['info']
+        props: ['info', 'index']
     });
     Vue.component('verso', {
         template: `

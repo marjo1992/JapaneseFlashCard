@@ -47,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     border-bottom: 1px dotted var(--couleur-principale);
     color: var(--couleur-principale);
     height: calc(var(--hauteur-carte)/2);
